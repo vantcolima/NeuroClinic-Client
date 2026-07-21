@@ -62,7 +62,7 @@ export default function PublicHome() {
           </p>
           <button className="btn-primary" onClick={scrollToAgendar}>
             <i className="ph ph-calendar-check"></i> Consultar Disponibilidad
-          </button>
+          </button>   
         </div>
         <div className="hero-image">
           {/* Aquí iría tu imagen real (puedes usar un img tag) */}
@@ -145,7 +145,7 @@ export default function PublicHome() {
                   {availableSlots.map(slot => (
                     <button 
                       key={slot} 
-                      className={`time-slot ${selectedSlot === slot ? 'active-slot' : ''}`}
+                      className={`time-slot ${selectedSlot === slot ? 'active-slot' : ''}`}   
                       onClick={() => setSelectedSlot(slot)}
                     >
                       {slot}
