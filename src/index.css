@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&family=Nunito+Sans:wght@400;600;700;800&display=swap");
+@import "tailwindcss";
+
+.nc-root {
+  font-family: "Nunito Sans", system-ui, sans-serif;
+}
+
+.font-display {
+  font-family: "Quicksand", system-ui, sans-serif;
+}
+
+.nc-root button {
+  cursor: pointer;
+}
+
+.nc-root ::placeholder {
+  color: #a6adcb;
+}
